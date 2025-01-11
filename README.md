@@ -33,6 +33,9 @@ Update-Database
 ## Updating related data (e.g., relationships between instructors and CourseInstructor detail tables).
 
 # ERD structure:
+![image](https://github.com/user-attachments/assets/3796f202-cf44-4e5b-a0c6-3882dfafd241)
+
+
 
 
 # Detail features:
@@ -84,6 +87,17 @@ Click next page
 ![image](https://github.com/user-attachments/assets/e2156564-c72d-4aa8-bb11-209c383eb500)
 
 ![image](https://github.com/user-attachments/assets/1fc3225f-7399-4ce2-85f8-4c7e6beb0946)
+Check Database:
+Table Instructor:
+![image](https://github.com/user-attachments/assets/ef05c1a2-a5fe-4231-aa3e-66a7d909e469)
+table detail CourseInstrutor:
+![image](https://github.com/user-attachments/assets/9249ae9d-d11c-4a71-b17f-cdb9b41f51d3)
+Table Course
+![image](https://github.com/user-attachments/assets/12a7adc7-7181-47ea-b893-e31e105c3ac5)
+table student
+![image](https://github.com/user-attachments/assets/dcf5bbc2-5593-4bc1-802f-2bdd0174572b)
+Enrolmnet:
+![image](https://github.com/user-attachments/assets/e3f96a28-1af5-4797-8568-ee38ab0854b7)
 
 
 
