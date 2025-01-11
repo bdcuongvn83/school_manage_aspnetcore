@@ -2,10 +2,10 @@
 @model studentEnrollment.Pages.Enrolments.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Enrolment Management";
 }
 
-<h1>Index</h1>
+<h1>Enrolment Management</h1>
 
 <form method="get">
     <p>
@@ -84,7 +84,7 @@
                disabled="@(hasPreviousPage == false ? "disabled" : null)"
                value="PrevPage" />
 
-        <span>@Model.CurrentPage</span>
+        <span>Page @Model.CurrentPage / @Model.EnrolmentLst.TotalPages</span>
         <input type="submit"
                asp-page-handler="NextPage"
                asp-route-currentPage="@Model.CurrentPage"

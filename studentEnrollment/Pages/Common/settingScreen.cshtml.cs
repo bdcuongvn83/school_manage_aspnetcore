@@ -25,7 +25,8 @@ namespace studentEnrollment.Pages.Common
                 {
                     new SelectListItem { Text = "3", Value = "3"},
                     new SelectListItem { Text = "5", Value = "5" },
-                    new SelectListItem { Text = "10", Value = "10" }
+                    new SelectListItem { Text = "10", Value = "10" },
+                    new SelectListItem { Text = "100", Value = "100" }
                 };
 
             return Page();
