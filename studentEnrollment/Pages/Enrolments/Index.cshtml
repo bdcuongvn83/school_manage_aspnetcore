@@ -1,0 +1,98 @@
+﻿@page
+@model studentEnrollment.Pages.Enrolments.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="get">
+    <p>
+        <input type="hidden" name="handler" value="Search" />
+        <label>studentName: <input type="text" asp-for="StudentName" /></label>
+     
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="./Index" asp-route-currentFilter="@Model.StudentName" 
+                asp-route-sortOrder="@Model.StudentNameSort">
+                     @Html.DisplayNameFor(model => model.EnrolmentLst[0].Student)
+                </a>
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.TitleSort">
+                    @Html.DisplayNameFor(model => model.EnrolmentLst[0].Course)
+                </a>
+            </th>
+            <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.GradeSort">
+                 @Html.DisplayNameFor(model => model.EnrolmentLst[0].grade)
+                </a>
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.EnrolmentLst) {
+        <tr>
+            <td>
+               
+                   @(item.Student.FullName)
+                 
+            </td>
+            <td>
+                
+                 @Html.DisplayFor(modelItem => item.Course.Title)
+                
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.grade)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<form method="POST">
+    <p>
+
+		@{
+            bool hasPreviousPage = Model.EnrolmentLst.HasPreviousPage;
+            bool hasNextPage = Model.EnrolmentLst.HasNextPage;
+		}
+       
+        <input type="submit"
+              asp-page-handler="PrevPage"
+               asp-route-currentPage="@Model.CurrentPage"
+               asp-route-currentFilter="@Model.CurrentFilter"
+               asp-route-sortOrder="@Model.CurrentSort"
+               
+               class="btn btn-primary @(hasPreviousPage)"
+               disabled="@(hasPreviousPage == false ? "disabled" : null)"
+               value="PrevPage" />
+
+        <span>@Model.CurrentPage</span>
+        <input type="submit"
+               asp-page-handler="NextPage"
+               asp-route-currentPage="@Model.CurrentPage"
+               asp-route-currentFilter="@Model.CurrentFilter"
+               asp-route-sortOrder="@Model.CurrentSort"
+               class="btn btn-primary @(hasNextPage)"
+               disabled="@(hasNextPage == false ? "disabled" : null)"
+               value="NextPage" />
+    </p>
+</form>
+                 
