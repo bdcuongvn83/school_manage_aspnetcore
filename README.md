@@ -36,8 +36,8 @@ https://github.com/user-attachments/assets/967b685c-106e-4222-ac3d-1e2be7aa1371
 ✔ Database SQL server.
 
 # **ERD structure:**
-![image](https://github.com/user-attachments/assets/3796f202-cf44-4e5b-a0c6-3882dfafd241)
 
+![image](https://github.com/user-attachments/assets/d2bc1856-2f35-4219-a2f4-132db4530c0d)
 
 # **Detail features:**
 
@@ -119,6 +119,56 @@ table detail CourseInstrutor:
 
 - Table Enrolmnet:
 ![image](https://github.com/user-attachments/assets/e3f96a28-1af5-4797-8568-ee38ab0854b7)
+
+
+### How to run project:
+1. Clone this repository   
+2. Run script Database.sql to create tables to Microsoft SQL server.  
+  ✓ install Microsof SQL server is here: https://www.microsoft.com/en-us/sql-server/sql-server-downloads  
+  ➜  script database.sql in the folder Database\database.sql  
+  
+![image](https://github.com/user-attachments/assets/a95fc14c-5322-4c7d-8a0c-5c20deb21f26)
+
+3. Open Microsoft Visual studio  
+➜ Open file solution: school_manage_aspnetcore\studentEnrollment.sln
+![image](https://github.com/user-attachments/assets/1e192231-41eb-4542-862c-0f17697b31f6)
+
+4. Setup Database ConnectionStrings   
+Edit file appsettings.json:  
+
+**"ConnectionStrings": {
+    "UniversityContext": "Server=localhost;Database=university_db;TrustServerCertificate=True;Trusted_Connection=True;MultipleActiveResultSets=true"
+}**  
+
+5. Run project:
+![image](https://github.com/user-attachments/assets/f148b3e3-99ac-4745-9f80-f613e1919982)
+ ✓Run succesfull project:
+![image](https://github.com/user-attachments/assets/1044a66d-b5d1-493b-9734-7954ed07cc1c)
+
+
+### Structure of this source code:
+
+✔ Source code of each function module
+![image](https://github.com/user-attachments/assets/e43475c7-282a-4d28-a06e-fae8aa6786b8)
+
+✔ Setup Database:
+![image](https://github.com/user-attachments/assets/c970d441-7c52-402b-869d-fc8c0ecea69d)
+
+✔ View  (file .chtml using ASP Razor page)
+![image](https://github.com/user-attachments/assets/dc62c88b-37d6-4b04-a3a5-1fc0d84a8967)
+
+✔ Controller  (file cshtml.cs using ASP Razor page)
+![image](https://github.com/user-attachments/assets/4d8d3ffe-78a5-4f98-b314-a23a646a155b)
+
+✔ Dtos
+![image](https://github.com/user-attachments/assets/f88a15ca-bb75-4b70-9103-67a424185a90)
+
+✔ Entity (using Entity Framework Core)
+![image](https://github.com/user-attachments/assets/1e680932-db1e-49d5-8733-ea76f02345ad)
+
+✔ Logic insert/ update/delete using Entity Framework Core
+Eg:
+![image](https://github.com/user-attachments/assets/1797e31a-83b0-4946-a3ac-acde71f917b3)
 
 
 
