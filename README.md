@@ -1,9 +1,9 @@
 # school_manage_aspnetcore
 
- Author: [DUC CUONG BUI]
- Project: [school manage aspnetcore]
- GitHub Repository: [[Repository URL](https://github.com/bdcuongvn83/school_manage_aspnetcore.git)]
-License: GPL License
+ **Author**: DUC CUONG BUI  
+ **Project**: School manage aspnetcore  
+**GitHub Repository URL** : (https://github.com/bdcuongvn83/school_manage_aspnetcore.git)  
+**License**: GPL License  
 
 # video Part1:
 https://github.com/user-attachments/assets/46902163-2f01-4458-b94d-5b6df6d44fb5
