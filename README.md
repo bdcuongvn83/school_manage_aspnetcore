@@ -5,19 +5,13 @@
  GitHub Repository: [[Repository URL](https://github.com/bdcuongvn83/school_manage_aspnetcore.git)]
 License: GPL License
 
-GPL-3.0 License
 
-Copyright (C) [2025] [DUC CUONG BUI]
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+# video Part1:
+https://github.com/user-attachments/assets/46902163-2f01-4458-b94d-5b6df6d44fb5
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# video Part2:
+
+https://github.com/user-attachments/assets/967b685c-106e-4222-ac3d-1e2be7aa1371
+
