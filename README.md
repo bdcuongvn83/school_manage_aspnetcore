@@ -134,7 +134,7 @@ table detail CourseInstrutor:
 
 ![image](https://github.com/user-attachments/assets/1e192231-41eb-4542-862c-0f17697b31f6)
 
-**4. Setup Database ConnectionStrings   **
+**4. Setup Database ConnectionStrings**  
 Edit file appsettings.json:  
 
 **"ConnectionStrings": {
