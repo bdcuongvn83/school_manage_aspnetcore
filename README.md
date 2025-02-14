@@ -74,7 +74,6 @@ https://github.com/user-attachments/assets/967b685c-106e-4222-ac3d-1e2be7aa1371
 This page support search filter by basic condition search (by student name), and support header sort, and paging. 
 
 ![image](https://github.com/user-attachments/assets/159bf924-37bc-46ce-872d-880d6db6bf62)
-
 ✔ Search by name:
 
 ![image](https://github.com/user-attachments/assets/32accf0b-167e-4734-bf73-b950ec6fcefa)
@@ -92,6 +91,14 @@ This page support search filter by basic condition search (by student name), and
 ➜ Click next page/Pre
 
 ![image](https://github.com/user-attachments/assets/14e68cc2-5ee9-4f16-a4fa-43c5ee6cf25f)
+
+✔ Create/Register Student Enrollment:
+**Click Register:**  
+![image](https://github.com/user-attachments/assets/0a115d58-8bbe-4115-884f-22124cade25b)
+
+Select dropdown for course, student, and input grade data, then register Enrollment.  
+
+![image](https://github.com/user-attachments/assets/d0e47fa3-263f-449e-802d-68a726c84cae)
 
 ###  ► **D. Instructor Management**  
 
