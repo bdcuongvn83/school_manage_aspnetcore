@@ -3,6 +3,7 @@
  **Author**: DUC CUONG BUI  
  **Project**: School manage aspnetcore  
 **GitHub Repository URL** : (https://github.com/bdcuongvn83/school_manage_aspnetcore.git)  
+**Link website demo project Azure: https://studentenrollmentproduct.azurewebsites.net/Enrolments**  
 **License**: GPL License  
 
 # video Part1:
