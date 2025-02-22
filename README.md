@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/967b685c-106e-4222-ac3d-1e2be7aa1371
 ► C. Enrollment Management: Managing student enrollments (table: Enrollment).  
 ► D. Instructor Management: Managing instructors (an instructor can teach multiple courses, tables: Instructor, CourseInstructor).  
 ► E. Settings Management: Configuring page size and other settings (stored in session).   
-
+► F. Reporting service: export student information to PDF files.
 # **Techniques used in this project:**
 
 ✔ ASP.NET Core Razor Pages.  
@@ -127,6 +127,13 @@ table detail CourseInstrutor:
 
 - Table Enrolmnet:
 ![image](https://github.com/user-attachments/assets/e3f96a28-1af5-4797-8568-ee38ab0854b7)
+
+► F. Reporting service: export student information to PDF files.
+![image](https://github.com/user-attachments/assets/f01b80c9-5b59-4ca1-afdb-1c5680e35f7e)
+![image](https://github.com/user-attachments/assets/b7bbb038-acdf-4897-9a97-bba7dcb91996)
+![image](https://github.com/user-attachments/assets/b76e318b-4e15-4b3f-b39b-7d11011cf03a)
+![image](https://github.com/user-attachments/assets/7498ba91-aacc-4ba1-8ca1-ca373279c34c)
+
 
 
 ## **How to run project:**  
