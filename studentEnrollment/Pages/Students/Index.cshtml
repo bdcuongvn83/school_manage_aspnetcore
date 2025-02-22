@@ -7,9 +7,16 @@
 
 <h1>Student Management</h1>
 
+<form method="POST">   
 <p>
     <a asp-page="Create">Create New</a>
+    <input type="submit"
+           asp-page-handler="ExportPdf"
+           class="btn btn-primary "
+           value="ExportPdf" />
+    
 </p>
+</form>
 <table class="table">
     <thead>
         <tr>

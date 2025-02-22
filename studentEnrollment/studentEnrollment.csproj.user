@@ -11,5 +11,6 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>studentEnrollment.Data.UniversityContext</WebStackScaffolding_DbContextTypeFullName>
+    <NameOfLastUsedPublishProfile>Q:\learning\C#.Net\studentEnrollment\studentEnrollment\school_manage_aspnetcore\studentEnrollment\Properties\PublishProfiles\studentEnrollmentProduct - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

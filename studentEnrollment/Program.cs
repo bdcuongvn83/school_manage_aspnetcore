@@ -1,12 +1,21 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Azure.Core;
+using Azure.Identity;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using studentEnrollment.Data;
 var builder = WebApplication.CreateBuilder(args);
 
+//var connecttionStr = builder.Configuration.GetConnectionString("UniversityContext");
+
+
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+
 builder.Services.AddDbContext<UniversityContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("UniversityContext") ?? throw new InvalidOperationException("Connection string 'UniversityContext' not found.")));
+
 
 //TODO them service cho TempData
 builder.Services.AddDistributedMemoryCache();  // Nếu bạn muốn dùng MemoryCache cho Session
