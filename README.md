@@ -195,6 +195,10 @@ Edit file appsettings.json:
 Eg:  
 ![image](https://github.com/user-attachments/assets/1797e31a-83b0-4946-a3ac-acde71f917b3)
 
+✔ Desing report by Report Desinger tool of .Net SSRS  
+
+![image](https://github.com/user-attachments/assets/a413dfad-0d69-4633-a3c9-ee3ed3a75766)
+
 **Thank you for reviewing the guide! If you have any questions or need clarification, feel free to ask. Your feedback is always welcome to help improve the material.**
 
 
